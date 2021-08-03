@@ -37,7 +37,7 @@ There are 3 questions and there should be at least 3 separate commits, at least 
 
 ```{r}
 setsize = 35
-odds = 4.7
+odds = 4.35
 bank=numeric()
 ```
 
@@ -57,7 +57,7 @@ nCLASS=1000
 
 
 ```{r}
-for(j in 1:50){
+for(j in 1:500){
 for (i in 1:nCLASS){
 class<-sample(bdays,size = setsize, replace = TRUE,prob = NULL)
 length(class)
