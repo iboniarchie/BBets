@@ -4,7 +4,6 @@ BrLw <-function(numClass,odds,countoDo){
   count=countoDo
   repeatn=numClass
   varstor=numeric()
-  BrLw <-function(numClass,odds,countoDo){
     
     days=1:365
     count=countoDo
